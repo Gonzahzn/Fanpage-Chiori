@@ -124,20 +124,25 @@ body{
 
 .constelacion__item{
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100;
+  padding: 15px 0;
 }
 
 .constelacion__texto{
   flex-grow: 1;
-  padding-right: 20px;
+  text-align: left;
+  padding-left: 30px;
 }
 
-.constelacion__texto h3{
+.main__container .constelacion__texto h3{
   margin-top: 0;
   margin-bottom: 5px;
   font-size: 25px;
 }
 
-.constelacion__texto h4{
+.main__container .constelacion__texto h4{
   margin: 0;
   font-size: 20px;
 }
