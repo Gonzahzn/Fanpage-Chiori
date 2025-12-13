@@ -170,6 +170,21 @@ body{
   font-size: 20px;
 }
 
+.talento__group{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+.talento__header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 80;
+}
+
 .talento__video{
   display: flex;
   align-items: center;
