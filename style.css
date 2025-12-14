@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+/* Estilos generales */
 header{
   display: flex;
   justify-content: space-between;
@@ -66,6 +67,85 @@ body{
   font-family: "Geom", sans-serif;
 }
 
+.main__img_mejora{
+  margin: 0;
+  width: 120px;
+  height: 120px;
+}
+
+.col__header{
+  margin-top: 30px;
+}
+
+.col__header h2{
+  background-color: #DDBA7D;
+  border-radius: 20px;
+  font-family: "Geom", sans-serif;
+}
+
+.col ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.col ul li{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  border: 5px double #452829;
+}
+
+.col ul li h3{
+  margin: 0 0 0 15px;
+  font-size: 20px;
+  text-align: left;
+  font-family: "Geom", sans-serif;
+
+}
+
+footer{
+  background-image: radial-gradient(circle, #DDBA7D , #703B3B);
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+footer ul{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+}
+footer ul li{
+  font-size: 15px;
+  margin-bottom: 3px;
+  font-family: "Geom", sans-serif;
+}
+.footer__redes a{
+  color: black;
+  text-decoration: none;
+}
+
+.footer__redes:hover a {
+  color: #EB5B00;
+}
+
+.link__icono {
+    width: 20px; 
+    height: 20px;
+    vertical-align: middle; 
+}
+
+.footer__copyright{
+  font-size: 18px;
+  padding-bottom: 5px;
+  font-family: "Geom", sans-serif;
+}
+
+/* Estilos index */
 .main__info {
     display: flex;
     align-items: flex-start;
@@ -110,8 +190,6 @@ body{
   font-size: 22px;
 }
 
-
-
 .fixed-size-img{
   border-radius: 25px;
   border: 5px solid #452829;
@@ -119,46 +197,7 @@ body{
   height: auto;
 }
 
-.main__img_mejora{
-  margin: 0;
-  width: 120px;
-  height: 120px;
-}
-
-.col__header{
-  margin-top: 30px;
-}
-
-.col__header h2{
-  background-color: #DDBA7D;
-  border-radius: 20px;
-  font-family: "Geom", sans-serif;
-}
-
-.col ul{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.col ul li{
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 5px 10px;
-  border: 5px double #452829;
-}
-
-.col ul li h3{
-  margin: 0 0 0 15px;
-  font-size: 20px;
-  text-align: left;
-  font-family: "Geom", sans-serif;
-
-}
-
+/* Estilos artefactos */
 .main__section--estadisticas{
   display: flex;
   background-image: radial-gradient(circle, #F79A19, #E2852E);
@@ -167,6 +206,7 @@ body{
   border: 5px solid #452829;
 }
 
+/* Estilos constelaciones */
 .constelacion__item{
   display: flex;
   align-items: center;
@@ -195,6 +235,7 @@ body{
   font-family: "Geom", sans-serif;
 }
 
+/* Estilos talentos */
 .talento__item{
   display: flex;
   align-items: center;
@@ -256,42 +297,4 @@ body{
   border: 5px solid #452829;
   margin-top: 5px;
   margin-bottom: 5px;
-}
-
-footer{
-  background-image: radial-gradient(circle, #DDBA7D , #703B3B);
-  margin-top: 10px;
-  padding-top: 15px;
-}
-
-footer ul{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  list-style: none;
-}
-footer ul li{
-  font-size: 15px;
-  margin-bottom: 3px;
-  font-family: "Geom", sans-serif;
-}
-.footer__redes a{
-  color: black;
-  text-decoration: none;
-}
-
-.footer__redes:hover a {
-  color: #EB5B00;
-}
-
-.link__icono {
-    width: 20px; 
-    height: 20px;
-    vertical-align: middle; 
-}
-
-.footer__copyright{
-  font-size: 18px;
-  padding-bottom: 5px;
-  font-family: "Geom", sans-serif;
 }
