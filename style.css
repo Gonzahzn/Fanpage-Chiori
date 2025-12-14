@@ -235,3 +235,38 @@ body{
   margin-bottom: 5px;
 }
 
+footer{
+  background-image: radial-gradient(circle, #DDBA7D , #703B3B);
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+footer ul{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+}
+footer ul li{
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+.footer__redes a{
+  color: black;
+  text-decoration: none;
+}
+
+.footer__redes:hover a {
+  color: #EB5B00;
+}
+
+.link__icono {
+    width: 20px; 
+    height: 20px;
+    vertical-align: middle; 
+}
+
+.footer__copyright{
+  font-size: 18px;
+  padding-bottom: 5px;
+}
