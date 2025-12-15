@@ -188,6 +188,7 @@ footer ul li{
   background-color: #DDBA7D;
   font-family: "Geom", sans-serif;
   font-size: 22px;
+  margin-top: 10px;
 }
 
 .fixed-size-img{
@@ -297,4 +298,146 @@ footer ul li{
   border: 5px solid #452829;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+/* Media quiery */
+@media (max-width: 1024px){
+  body {
+    font-size: 18px;
+  }
+  header {
+    padding: 10px 20px;
+  }
+  header .header__logo {
+    max-width: 100px;
+  }
+  nav{
+    width: 95%;
+    margin: 10px auto;
+  }
+  .main__img{
+    width: 50%;
+    max-width: 500px;
+    margin-left: 10px;
+  }
+  .fixed-size-img{
+    width: 400px;
+  }
+  .col ul li{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+  .main__img_mejora{
+    width: 100px;
+    height: 100px;
+  }
+
+  .main__talento--video{
+    width: 90%;
+    max-width: 600px;
+  }
+
+  .main__container .constelacion__texto h3, .main__container .talento__texto h3 {
+    font-size: 22px;
+  }
+  .main__container .constelacion__texto h4, .main__container .talento__texto h4 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px){
+  body{
+    font-size: 18px;
+    padding: 0;
+  }
+    header {
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+  }
+  .header__logo {
+    margin: 0 10px auto;
+    max-width: 70px;
+  }
+  nav{
+    width: 40%;
+    margin: 10px auto;
+    flex-direction: column;
+  }
+  nav ul{
+    width: 100%;
+    padding: 0;
+  }
+  nav ul li {
+    margin: 5px 0;
+    padding: 5px 0;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
+  nav ul li:last-child{
+    border-bottom: none;
+  }
+  .nav-link:hover {
+  color: #452829;
+  transform: scale(1.3);
+  }
+
+  .main__titulo--h1{
+    font-size: 20px;
+    padding: 8px;
+  }
+  .main__subtitulo--h2{
+    font-size: 18px;
+  }
+
+  .main__info{
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  .main__img{
+    width: 95%;
+    margin: 10px 0;
+  }
+  .main__detalles{
+    padding: 0 10px;
+  }
+  .fixed-size-img{
+    width: 95%;
+    height: auto;
+  }
+  .main__img_mejora{
+    width: 70px;
+    height: 70px;
+  }
+
+  .col ul li h3{
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  .constelacion__item, .talento__item{
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .constelacion__texto, .talento__texto{
+    width: 100%;
+    max-width: 400px;
+  }
+
+
+  .footer__redes a{
+  color: black;
+  text-decoration: none;
+}
+
+.footer__redes:hover a {
+  color: #EB5B00;
+}
+  .footer__copyright{
+    font-size: 16px;
+  }
 }
