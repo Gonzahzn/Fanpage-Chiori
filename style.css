@@ -262,4 +262,53 @@ footer__copyright {
   margin-bottom: 5px;
 }
 
+@media (max-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+  header {
+    padding: 10px 20px;
+  }
+  header__logo {
+    max-width: 100px;
+  }
+  nav {
+    width: 95%;
+    margin: 10px auto;
+  }
+  .main__img {
+    width: 50px;
+    max-width: 500px;
+    margin-left: 10px;
+  }
+  .main .fixed-size-img {
+    width: 400px;
+  }
+  .main__img_mejora {
+    width: 100px;
+    height: 100px;
+  }
+  .main__talento--video {
+    width: 90%;
+    max-width: 600px;
+  }
+  .main__container .constelacion__texto h3 {
+    font-size: 22px;
+  }
+  .main__container .constelacion__texto h4 {
+    font-size: 18px;
+  }
+  .main__container .talento__texto h3 {
+    font-size: 22px;
+  }
+  .main__container .talento__texto h4 {
+    font-size: 18px;
+  }
+  .col ul li {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
