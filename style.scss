@@ -4,7 +4,7 @@ $color-texto: black;
 $color-hover-nav: #452829;
 $color-hover-footer: #EB5B00;
 $font: "Geom", sans-serif;
-// $margin-vertical: 10px;
+
 $border-radius: 20px;
 $double-border: 5px solid #452829;
 $rad-gradient-body: radial-gradient(circle, #FFC600, #EB5B00);
@@ -190,7 +190,7 @@ footer{
         border: $double-border;
         margin-bottom: 30px;
     }
-    &__descripcion--h4{
+    &__descripcion--p{
         background-color: #DDBA7D;
         font-family: $font;
         font-size: 22px;
@@ -233,7 +233,7 @@ footer{
             font-size: 25px;
             font-family: $font;
         }
-        h4{
+        p{
             margin: 0;
             font-size: 20px;
             font-family: $font;
@@ -249,7 +249,7 @@ footer{
         align-items: center;
         width: 100%;
         padding: 20px 0;
-        border-bottom: 2px solid #452829;
+        border-bottom: 5px solid #452829;
     }
     &__descripcion {
         display: flex;
@@ -270,7 +270,7 @@ footer{
             font-size: 25px;
             font-family: $font;
         }
-        h4{
+        p{
             margin: 0;
             font-size: 20px;
             font-family: $font;
@@ -325,7 +325,7 @@ footer{
                 &__texto h3{
                     font-size: 22px;
                 }
-                &__texto h4{
+                &__texto p{
                     font-size: 18px;
                 }
             }
@@ -333,7 +333,7 @@ footer{
                 &__texto h3{
                      font-size: 22px;
                 }
-                &__texto h4{
+                &__texto p{
                     font-size: 18px;
                 }
             }

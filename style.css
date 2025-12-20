@@ -160,7 +160,7 @@ footer .footer__copyright {
   border: 5px solid #452829;
   margin-bottom: 30px;
 }
-.main__descripcion--h4 {
+.main__descripcion--p {
   background-color: #DDBA7D;
   font-family: "Geom", sans-serif;
   font-size: 22px;
@@ -199,7 +199,7 @@ footer .footer__copyright {
   font-size: 25px;
   font-family: "Geom", sans-serif;
 }
-.constelacion__texto h4 {
+.constelacion__texto p {
   margin: 0;
   font-size: 20px;
   font-family: "Geom", sans-serif;
@@ -211,7 +211,7 @@ footer .footer__copyright {
   align-items: center;
   width: 100%;
   padding: 20px 0;
-  border-bottom: 2px solid #452829;
+  border-bottom: 5px solid #452829;
 }
 .main__container .talento__descripcion {
   display: flex;
@@ -232,7 +232,7 @@ footer .footer__copyright {
   font-size: 25px;
   font-family: "Geom", sans-serif;
 }
-.main__container .talento__texto h4 {
+.main__container .talento__texto p {
   margin: 0;
   font-size: 20px;
   font-family: "Geom", sans-serif;
@@ -281,13 +281,13 @@ footer .footer__copyright {
   .main__container .constelacion__texto h3 {
     font-size: 22px;
   }
-  .main__container .constelacion__texto h4 {
+  .main__container .constelacion__texto p {
     font-size: 18px;
   }
   .main__container .talento__texto h3 {
     font-size: 22px;
   }
-  .main__container .talento__texto h4 {
+  .main__container .talento__texto p {
     font-size: 18px;
   }
   .col ul li {
