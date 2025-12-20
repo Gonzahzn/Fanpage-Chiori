@@ -242,13 +242,22 @@ footer{
 }
 
 //Estilos talentos
-.talento{
-    &__item{
+.main__container .talento{
+    &__bloque, &__sinVideo {
         display: flex;
+        flex-direction: column; // Apila descripción arriba y video abajo
         align-items: center;
-        justify-content: flex-start;
-        width: 100;
-        padding: 15px 0;
+        width: 100%;
+        padding: 20px 0;
+        border-bottom: 2px solid #452829;
+    }
+    &__descripcion {
+        display: flex;
+        flex-direction: row; // Icono a la izquierda, texto a la derecha
+        align-items: flex-start; // Alinea el icono con el inicio del texto
+        width: 100%;
+        margin-bottom: 15px; // Espacio antes del video
+        padding: 15px;
     }
     &__texto{
         flex-grow: 1;
@@ -267,40 +276,20 @@ footer{
             font-family: $font;
         }
     }
-    &__bloque{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px 0;
-        margin-bottom: 30px;
-        border-bottom: 2px solid #452829;
-    }
-    &__sinVideo{
-        padding: 20px 0;
-        margin-bottom: 30px;
-        border-bottom: 2px solid #452829;
-    }
-    &__descripcion{
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        width: 80;
-    }
     &__video{
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: 10px;
     }
-    &__talento--video{
+}
+.main__container .main__talento--video{
         width: 650px;
         height: auto;
         border-radius: 25px;
         border: $double-border;
-        margin-top: 5px;
         margin-bottom: 5px;
     }
-}
 
 //Media queries
 //para pc escritorio
@@ -331,10 +320,6 @@ footer{
             width: 100px;
             height: 100px;
         }
-        &__talento--video{
-            width: 90%;
-            max-width: 600px;
-        }
         &__container{
             .constelacion{
                 &__texto h3{
@@ -346,7 +331,7 @@ footer{
             }
             .talento{
                 &__texto h3{
-                    font-size: 22px;
+                     font-size: 22px;
                 }
                 &__texto h4{
                     font-size: 18px;
@@ -354,6 +339,7 @@ footer{
             }
         }
     }
+    
     .col{
         ul{
             li{
@@ -367,6 +353,10 @@ footer{
 
 //para moviles
 @media (max-width: 600px){
+    .main__container .main__talento--video{
+        width: 350px;
+        height: auto;
+    }
     body{
         font-size: 18px;
         padding: 0;
@@ -432,51 +422,53 @@ footer{
             height: 70px;
         }
     }
-}
-.col{
-    ul{
-        li{
-            h3{
-                font-size: 18px;
-                margin-left: 10px;
+    .col{
+        ul{
+            li{
+                h3{
+                    font-size: 18px;
+                    margin-left: 10px;
+                }
             }
         }
     }
-}
 
-.constelacion{
-    &__item{
-        flex-direction: column;
-        align-items: center;
-        padding: 10px 0;
+    .constelacion{
+        &__item{
+            align-items: flex-start;
+            padding: 10px;
+        }
+        &__texto{
+            width: 100%;
+            padding-left: 10px;
+            max-width: none;
+        }
     }
-    &__texto{
-        width: 100%;
-        max-width: 400px;
+    .talento{
+        &__bloque{
+            align-items: flex-start;
+            padding: 10px;
+        }
+        &__descripcion{
+            align-items: flex-start;
+        }
+        &__texto{
+            width: 100%;
+            padding-left: 10px;
+            max-width: none;
+        }
+    footer{
+        .footer__redes a{
+            color: $color-texto;
+            text-decoration: none;
+        }
+        .footer__redes:hover a{
+            color: $color-hover-footer;
+        }
+        .footer__copyright{
+            font-size: 16px;
+        }
     }
-}
 
-.talento{
-    &__item{
-        flex-direction: column;
-        align-items: center;
-        padding: 10px 0;
-    }
-    &__texto{
-        width: 100%;
-        max-width: 400px;
-    }
-}
-
-footer{
-    .footer__redes a{
-        color: $color-texto;
-        text-decoration: none;
-    }
-    .footer__redes:hover a{
-        color: $color-hover-footer;
-    }
-    .footer__copyright{
-        font-size: 16px;
     }
 }
