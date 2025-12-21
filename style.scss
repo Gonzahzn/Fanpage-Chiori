@@ -21,6 +21,7 @@ body{
     text-align: center;
 }
 
+//Estilos generales
 //Header
 header{
     display: flex;
@@ -60,7 +61,7 @@ nav{
         }
     }
 }
-
+//Footer
 footer{
     background-image: $rad-gradient-oscuro;
     margin-top: 10px;
@@ -78,16 +79,18 @@ footer{
             font-family: $font;
         }
     }
-    .footer__redes a{
-        color: $color-texto;
-        text-decoration: none;
-        .link__icono {
-            width: 20px; 
-            height: 20px;
-            vertical-align: middle; 
+    .footer__redes{
+        a{
+            color: $color-texto;
+            text-decoration: none;
+            .link__icono {
+                width: 20px; 
+                height: 20px;
+                vertical-align: middle; 
             }
-    .footer__redes:hover a{
-        color: $color-hover-footer;
+        &:hover {
+            color: $color-hover-footer
+        }
     }
     }
     .footer__copyright{
@@ -97,7 +100,6 @@ footer{
         }
 }
 
-//Estilos generales
 .main{
     &__titulo--h1{
         width: fit-content;

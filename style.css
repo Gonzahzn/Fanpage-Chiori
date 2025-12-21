@@ -70,7 +70,7 @@ footer .footer__redes a .link__icono {
   height: 20px;
   vertical-align: middle;
 }
-footer .footer__redes a .footer__redes:hover a {
+footer .footer__redes a:hover {
   color: #EB5B00;
 }
 footer .footer__copyright {
