@@ -388,7 +388,7 @@ footer .footer__copyright {
     height: 70px;
   }
   .main__imgBanner {
-    width: 70%;
+    width: 100%;
     height: auto;
     border-radius: 20px;
     border: 5px solid #452829;
