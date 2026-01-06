@@ -174,8 +174,7 @@ footer .footer__copyright {
   height: auto;
 }
 .main__imgBanner {
-  display: block;
-  width: 100%;
+  width: 80%;
   height: auto;
   border: 5px solid #452829;
   border-radius: 20px;
@@ -389,8 +388,25 @@ footer .footer__copyright {
     height: 70px;
   }
   .main__imgBanner {
-    width: 80%;
+    width: 70%;
     height: auto;
+    border-radius: 20px;
+    border: 5px solid #452829;
+  }
+  .main__detalles {
+    list-style: none;
+  }
+  .main__detalles--cisoria {
+    list-style: none;
+    display: block;
+    margin-left: 60px;
+    padding: 0;
+  }
+  .main__constelacion--img {
+    width: 25%;
+    height: auto;
+    border-radius: 20px;
+    display: block;
     border: 5px solid #452829;
   }
   .col ul li h3 {
