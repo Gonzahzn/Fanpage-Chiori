@@ -140,6 +140,7 @@ footer .footer__copyright {
   border-radius: 20px;
   margin-left: 20px;
   border: 5px solid #452829;
+  margin-top: 50px;
 }
 .main__detalles {
   display: flex;
@@ -171,6 +172,29 @@ footer .footer__copyright {
   border: 5px solid #452829;
   width: 450px;
   height: auto;
+}
+.main__imgBanner {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 5px solid #452829;
+  border-radius: 20px;
+}
+.main__detalles {
+  list-style: none;
+}
+.main__detalles--cisoria {
+  list-style: none;
+  display: block;
+  margin-left: 40px;
+  padding: 0;
+}
+.main__constelacion--img {
+  width: 25%;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+  border: 5px solid #452829;
 }
 
 .main__section--estadisticas {
@@ -363,6 +387,11 @@ footer .footer__copyright {
   .main__img_mejora {
     width: 70px;
     height: 70px;
+  }
+  .main__imgBanner {
+    width: 80%;
+    height: auto;
+    border: 5px solid #452829;
   }
   .col ul li h3 {
     font-size: 18px;

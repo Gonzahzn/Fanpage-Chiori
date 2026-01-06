@@ -171,6 +171,7 @@ footer{
         border-radius: $border-radius;
         margin-left: 20px;
         border: $double-border;
+        margin-top: 50px;
     }
     &__detalles{
         display: flex;
@@ -203,6 +204,30 @@ footer{
         border: $double-border;
         width: 450px;
         height: auto;
+    }
+    &__imgBanner{
+        display: block;
+        width: 100%;
+        height: auto;
+        border: $double-border;
+        border-radius: $border-radius;
+    }
+    &__detalles{
+        list-style: none;
+        
+        &--cisoria{
+            list-style: none;
+            display: block;
+            margin-left: 40px;
+            padding: 0;
+        }
+    }
+    &__constelacion--img{
+        width: 25%;
+        height: auto;
+        border-radius: $border-radius;
+        display: block;
+        border: $double-border;
     }
 }
 
@@ -422,6 +447,11 @@ footer{
         &__img_mejora{
             width: 70px;
             height: 70px;
+        }
+        &__imgBanner{
+            width: 80%;
+            height: auto;
+            border: $double-border;
         }
     }
     .col{
